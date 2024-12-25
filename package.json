@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2",
+    "gsap": "^3.12.5",
+    "matter-js": "^0.20.0"
+  }
+}

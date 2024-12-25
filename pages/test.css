@@ -1,0 +1,47 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button {
+  display: block;
+  position: absolute;
+  top: 60%;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+#text {
+  color: #d36257;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+}
+
+svg#Layer_1 {
+  display: block;
+  width: 15%;
+  overflow: visible;
+}
+
+/* #tr1, #tr2, #tr3, #tr4 {
+ visibility: hidden; 
+} */
+#tree,
+#star,
+#ballred1,
+#ballred2,
+#ballred3,
+#ballred4,
+#ballred5,
+#ballred6 {
+  visibility: hidden;
+}
